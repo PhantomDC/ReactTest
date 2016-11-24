@@ -1,0 +1,46 @@
+.note{
+	width: 200px;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.noteTextarea{
+    border: none;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    box-shadow: 0px 0px 5px 0px #333;
+    padding: 10px 10px 60px;
+}
+
+.noteEditor{
+	position: relative;
+}
+
+.noteAdd{
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	width: 50px;
+	background-color: #3F51B5;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	height: 50px;
+	-webkit-transition: all .1s linear;
+	-o-transition: all .1s linear;
+	transition: all .1s linear;
+	
+}
+
+.noteAdd:focus{
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: 0;
+}
+
+.noteAdd:hover{
+	background-color: #212957;
+}
